@@ -1,0 +1,7 @@
+apiVersion: minecraft.robertsmieja.com/v1alpha1
+kind: VanillaServer
+metadata:
+  name: vanillaserver-sample
+spec:
+  # Add fields here
+  foo: bar

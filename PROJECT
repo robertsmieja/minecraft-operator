@@ -2,6 +2,10 @@ domain: robertsmieja.com
 layout: go.kubebuilder.io/v2
 projectName: minecraft-operator
 repo: github.com/robertsmieja/minecraft-operator
+resources:
+- group: minecraft
+  kind: VanillaServer
+  version: v1alpha1
 version: 3-alpha
 plugins:
   go.sdk.operatorframework.io/v2-alpha: {}

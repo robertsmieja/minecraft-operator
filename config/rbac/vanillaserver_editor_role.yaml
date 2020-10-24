@@ -1,0 +1,24 @@
+# permissions for end users to edit vanillaservers.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: vanillaserver-editor-role
+rules:
+- apiGroups:
+  - minecraft.robertsmieja.com
+  resources:
+  - vanillaservers
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - minecraft.robertsmieja.com
+  resources:
+  - vanillaservers/status
+  verbs:
+  - get

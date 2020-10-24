@@ -1,0 +1,7 @@
+domain: robertsmieja.com
+layout: go.kubebuilder.io/v2
+projectName: minecraft-operator
+repo: github.com/robertsmieja/minecraft-operator
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}
